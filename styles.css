@@ -331,7 +331,7 @@ h2 {
   background: var(--green);
 }
 
-.status-dot.tba {
+.status-dot.estimated {
   background: var(--amber);
 }
 
@@ -386,6 +386,11 @@ h2 {
   color: var(--amber);
   font-size: 20px;
   letter-spacing: 0;
+}
+
+.date-column.is-estimated .date-month,
+.date-column.is-estimated .date-day {
+  color: #956400;
 }
 
 .conference-main {
@@ -455,6 +460,16 @@ h2 {
   background: #ffe5d7;
 }
 
+.badge.status-confirmed {
+  color: #17654e;
+  background: #dff4eb;
+}
+
+.badge.status-estimated {
+  color: #805700;
+  background: #fff0c2;
+}
+
 .conference-details {
   display: flex;
   gap: 7px;
@@ -486,7 +501,8 @@ h2 {
   font-weight: 800;
 }
 
-.countdown.is-tba {
+.countdown.is-tba,
+.countdown.is-estimated {
   color: var(--amber);
 }
 

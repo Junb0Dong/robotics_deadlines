@@ -67,6 +67,10 @@ function formatDateColumn(conference, element) {
     return;
   }
 
+  if (conference.status === "estimated") {
+    element.classList.add("is-estimated");
+  }
+
   const timeZone = state.timezone === "beijing" ? "Asia/Shanghai" : undefined;
   month.textContent = new Intl.DateTimeFormat("en", {
     month: "short",
@@ -132,16 +136,29 @@ function cardFor(conference) {
     badges.append(ccfBadge);
   }
 
+  const statusBadge = document.createElement("span");
+  statusBadge.className = `badge status-${conference.status}`;
+  statusBadge.textContent =
+    conference.status === "confirmed" ? "官方确认" : "预测日期";
+  badges.append(statusBadge);
+
   countdown.textContent = countdownText(conference);
-  if (!conference.deadline) {
-    countdown.classList.add("is-tba");
+  if (conference.status === "estimated") {
+    countdown.classList.add("is-estimated");
   } else if (deadlineDate(conference) <= new Date()) {
     countdown.classList.add("is-past");
     card.dataset.past = "true";
   }
 
   source.href = conference.source;
-  source.setAttribute("aria-label", `查看 ${conference.acronym} 官方来源`);
+  source.textContent =
+    conference.status === "confirmed" ? "官方来源 ↗" : "预测依据 ↗";
+  source.setAttribute(
+    "aria-label",
+    `查看 ${conference.acronym} ${
+      conference.status === "confirmed" ? "官方来源" : "预测依据"
+    }`,
+  );
   return fragment;
 }
 
@@ -197,19 +214,18 @@ function renderAreaFilters() {
 }
 
 function updateSummary() {
-  const now = new Date();
   elements.upcomingCount.textContent = state.conferences.filter(
-    (conference) => conference.deadline && deadlineDate(conference) > now,
+    (conference) => conference.status === "confirmed",
   ).length;
   elements.tbaCount.textContent = state.conferences.filter(
-    (conference) => !conference.deadline,
+    (conference) => conference.status === "estimated",
   ).length;
   elements.conferenceCount.textContent = state.conferences.length;
 }
 
 async function loadConferences() {
   try {
-    const response = await fetch("./data/conferences.json?v=20260610-2", {
+    const response = await fetch("./data/conferences.json?v=20260610-3", {
       cache: "no-store",
     });
     if (!response.ok) throw new Error(`HTTP ${response.status}`);

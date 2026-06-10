@@ -9,6 +9,7 @@
       "ccf": "C",
       "deadlineType": "Full paper",
       "deadline": "2026-07-05T23:59:00Z",
+      "status": "confirmed",
       "expectedWindow": null,
       "sortDate": "2026-07-05",
       "source": "https://accv2026.org/"
@@ -21,6 +22,7 @@
       "ccf": null,
       "deadlineType": "Full paper",
       "deadline": "2026-07-24T23:59:59-12:00",
+      "status": "confirmed",
       "expectedWindow": null,
       "sortDate": "2026-07-24",
       "source": "https://2026.ieee-humanoids.org/call-for-papers/"
@@ -32,10 +34,11 @@
       "area": "ML",
       "ccf": null,
       "deadlineType": "Full paper",
-      "deadline": null,
-      "expectedWindow": "2026 Q3",
-      "sortDate": "2026-09-30",
-      "source": "https://iclr.cc/"
+      "deadline": "2026-09-24T23:59:59-12:00",
+      "status": "estimated",
+      "expectedWindow": null,
+      "sortDate": "2026-09-24",
+      "source": "https://iclr.cc/Conferences/2026/Dates"
     },
     {
       "acronym": "ICRA",
@@ -44,10 +47,11 @@
       "area": "Robotics",
       "ccf": "B",
       "deadlineType": "Full paper",
-      "deadline": null,
-      "expectedWindow": "2026 Q3",
-      "sortDate": "2026-09-30",
-      "source": "https://www.ieee-ras.org/conferences-workshops/fully-sponsored/icra"
+      "deadline": "2026-09-15T23:59:59-07:00",
+      "status": "estimated",
+      "expectedWindow": null,
+      "sortDate": "2026-09-15",
+      "source": "https://nunoduarte.github.io/deadlines/"
     },
     {
       "acronym": "HRI",
@@ -56,10 +60,11 @@
       "area": "Robotics",
       "ccf": null,
       "deadlineType": "Full paper",
-      "deadline": null,
-      "expectedWindow": "2026 Q4",
-      "sortDate": "2026-10-15",
-      "source": "https://humanrobotinteraction.org/"
+      "deadline": "2026-09-30T23:59:59-12:00",
+      "status": "estimated",
+      "expectedWindow": null,
+      "sortDate": "2026-09-30",
+      "source": "https://humanrobotinteraction.org/2026/full-papers/"
     },
     {
       "acronym": "AISTATS",
@@ -68,10 +73,11 @@
       "area": "ML",
       "ccf": "C",
       "deadlineType": "Full paper",
-      "deadline": null,
-      "expectedWindow": "2026 Q4",
-      "sortDate": "2026-10-31",
-      "source": "https://aistats.org/"
+      "deadline": "2026-10-02T23:59:59-12:00",
+      "status": "estimated",
+      "expectedWindow": null,
+      "sortDate": "2026-10-02",
+      "source": "https://virtual.aistats.org/Conferences/2026/Dates"
     },
     {
       "acronym": "CVPR",
@@ -80,10 +86,11 @@
       "area": "Vision",
       "ccf": "A",
       "deadlineType": "Full paper",
-      "deadline": null,
-      "expectedWindow": "2026 Q4",
-      "sortDate": "2026-11-30",
-      "source": "https://cvpr.thecvf.com/"
+      "deadline": "2026-11-13T23:59:59-12:00",
+      "status": "estimated",
+      "expectedWindow": null,
+      "sortDate": "2026-11-13",
+      "source": "https://nunoduarte.github.io/deadlines/"
     },
     {
       "acronym": "ICAPS",
@@ -92,10 +99,11 @@
       "area": "AI",
       "ccf": "B",
       "deadlineType": "Full paper",
-      "deadline": null,
-      "expectedWindow": "2026 Q4",
-      "sortDate": "2026-11-30",
-      "source": "https://www.icaps-conference.org/"
+      "deadline": "2026-12-08T23:59:59-12:00",
+      "status": "estimated",
+      "expectedWindow": null,
+      "sortDate": "2026-12-08",
+      "source": "https://icaps26.icaps-conference.org/dates/"
     },
     {
       "acronym": "AAMAS",
@@ -104,10 +112,11 @@
       "area": "AI",
       "ccf": "B",
       "deadlineType": "Full paper",
-      "deadline": null,
-      "expectedWindow": "2026 H2",
-      "sortDate": "2026-12-01",
-      "source": "https://www.ifaamas.org/"
+      "deadline": "2026-10-08T23:59:59-12:00",
+      "status": "estimated",
+      "expectedWindow": null,
+      "sortDate": "2026-10-08",
+      "source": "https://aamas2026.org/"
     },
     {
       "acronym": "AAAI",
@@ -117,6 +126,7 @@
       "ccf": "A",
       "deadlineType": "Main track full paper",
       "deadline": "2026-07-28T23:59:00-12:00",
+      "status": "confirmed",
       "expectedWindow": null,
       "sortDate": "2026-07-28",
       "source": "https://aaai.org/conference/aaai/aaai-27/"
@@ -129,6 +139,7 @@
       "ccf": null,
       "deadlineType": "Round 2 full paper",
       "deadline": "2026-08-28T23:59:59-12:00",
+      "status": "confirmed",
       "expectedWindow": null,
       "sortDate": "2026-08-28",
       "source": "https://wacv.thecvf.com/Conferences/2027/Dates"
@@ -141,6 +152,7 @@
       "ccf": null,
       "deadlineType": "Full paper",
       "deadline": "2026-08-28T11:00:00-07:00",
+      "status": "confirmed",
       "expectedWindow": null,
       "sortDate": "2026-08-28",
       "source": "https://3dvconf.github.io/2027/dates/"
@@ -152,10 +164,11 @@
       "area": "ML",
       "ccf": "A",
       "deadlineType": "Full paper",
-      "deadline": null,
-      "expectedWindow": "2027 Q1",
-      "sortDate": "2027-01-31",
-      "source": "https://icml.cc/"
+      "deadline": "2027-01-28T23:59:59-12:00",
+      "status": "estimated",
+      "expectedWindow": null,
+      "sortDate": "2027-01-28",
+      "source": "https://icml.cc/Conferences/2026/Dates"
     },
     {
       "acronym": "RSS",
@@ -164,10 +177,11 @@
       "area": "Robotics",
       "ccf": null,
       "deadlineType": "Full paper",
-      "deadline": null,
-      "expectedWindow": "2027 Q1",
-      "sortDate": "2027-01-31",
-      "source": "https://roboticsconference.org/"
+      "deadline": "2027-01-29T23:59:59-12:00",
+      "status": "estimated",
+      "expectedWindow": null,
+      "sortDate": "2027-01-29",
+      "source": "https://roboticsconference.org/2026/"
     },
     {
       "acronym": "IJCAI",
@@ -176,9 +190,10 @@
       "area": "AI",
       "ccf": "A",
       "deadlineType": "Main track",
-      "deadline": null,
-      "expectedWindow": "2027 Q1",
-      "sortDate": "2027-02-15",
+      "deadline": "2027-01-19T23:59:59-12:00",
+      "status": "estimated",
+      "expectedWindow": null,
+      "sortDate": "2027-01-19",
       "source": "https://www.ijcai.org/"
     },
     {
@@ -188,10 +203,11 @@
       "area": "AI",
       "ccf": "B",
       "deadlineType": "Full paper",
-      "deadline": null,
-      "expectedWindow": "2027 Q1",
-      "sortDate": "2027-02-28",
-      "source": "https://www.auai.org/"
+      "deadline": "2027-02-25T23:59:59-12:00",
+      "status": "estimated",
+      "expectedWindow": null,
+      "sortDate": "2027-02-25",
+      "source": "https://www.auai.org/uai2026/"
     },
     {
       "acronym": "ICCV",
@@ -200,10 +216,11 @@
       "area": "Vision",
       "ccf": "A",
       "deadlineType": "Full paper",
-      "deadline": null,
-      "expectedWindow": "2027 H1",
-      "sortDate": "2027-03-31",
-      "source": "https://iccv.thecvf.com/"
+      "deadline": "2027-03-07T23:59:59-10:00",
+      "status": "estimated",
+      "expectedWindow": null,
+      "sortDate": "2027-03-07",
+      "source": "https://iccv.thecvf.com/Conferences/2025/Dates"
     },
     {
       "acronym": "IROS",
@@ -212,10 +229,11 @@
       "area": "Robotics",
       "ccf": "C",
       "deadlineType": "Full paper",
-      "deadline": null,
-      "expectedWindow": "2027 H1",
-      "sortDate": "2027-03-31",
-      "source": "https://www.ieee-ras.org/conferences-workshops/financially-co-sponsored/iros"
+      "deadline": "2027-03-02T23:59:59-08:00",
+      "status": "estimated",
+      "expectedWindow": null,
+      "sortDate": "2027-03-02",
+      "source": "https://www.iros-pittsburgh.org/"
     },
     {
       "acronym": "CoRL",
@@ -224,9 +242,10 @@
       "area": "Robotics",
       "ccf": null,
       "deadlineType": "Full paper",
-      "deadline": null,
-      "expectedWindow": "2027 H1",
-      "sortDate": "2027-05-31",
+      "deadline": "2027-05-28T23:59:59-12:00",
+      "status": "estimated",
+      "expectedWindow": null,
+      "sortDate": "2027-05-28",
       "source": "https://www.corl.org/"
     },
     {
@@ -236,10 +255,11 @@
       "area": "ML",
       "ccf": "A",
       "deadlineType": "Main track",
-      "deadline": null,
-      "expectedWindow": "2027 H1",
-      "sortDate": "2027-05-31",
-      "source": "https://neurips.cc/"
+      "deadline": "2027-05-06T23:59:59-12:00",
+      "status": "estimated",
+      "expectedWindow": null,
+      "sortDate": "2027-05-06",
+      "source": "https://neurips.cc/Conferences/2026/CallForPapers"
     }
   ]
 }

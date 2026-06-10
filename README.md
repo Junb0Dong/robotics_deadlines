@@ -6,8 +6,8 @@
 
 ## 更新会议
 
-编辑 [`data/conferences.json`](data/conferences.json)。正式日期必须来自会议官网或
-官方 CFP，并使用带时区的 ISO 8601 格式：
+编辑 [`data/conferences.json`](data/conferences.json)。日期使用带时区的 ISO 8601
+格式，并通过 `status` 区分官方日期与预测日期：
 
 ```json
 {
@@ -18,23 +18,15 @@
   "ccf": "B",
   "deadlineType": "Full paper",
   "deadline": "2026-09-15T23:59:59-12:00",
+  "status": "estimated",
   "expectedWindow": null,
   "sortDate": "2026-09-15",
   "source": "https://official-conference.example/call-for-papers"
 }
 ```
 
-如果官方尚未公布日期，将 `deadline` 设为 `null`，并填写大致时间段：
-
-```json
-{
-  "deadline": null,
-  "expectedWindow": "2027 Q1",
-  "sortDate": "2027-02-15"
-}
-```
-
-`sortDate` 仅决定 TBA 记录的展示顺序，不会作为正式截稿日期显示。
+`confirmed` 表示会议官网或官方 CFP 已公布；`estimated` 表示根据上一届官方日期、
+固定年度规律或公开维护数据预测。预测记录的 `source` 应指向推算依据。
 
 ## 本地预览
 
