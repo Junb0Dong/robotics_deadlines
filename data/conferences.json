@@ -2,6 +2,30 @@
   "lastUpdated": "2026-06-10",
   "conferences": [
     {
+      "acronym": "ACCV",
+      "edition": "2026",
+      "name": "Asian Conference on Computer Vision",
+      "area": "Vision",
+      "ccf": "C",
+      "deadlineType": "Full paper",
+      "deadline": "2026-07-05T23:59:00Z",
+      "expectedWindow": null,
+      "sortDate": "2026-07-05",
+      "source": "https://accv2026.org/"
+    },
+    {
+      "acronym": "Humanoids",
+      "edition": "2026",
+      "name": "IEEE-RAS International Conference on Humanoid Robots",
+      "area": "Robotics",
+      "ccf": null,
+      "deadlineType": "Full paper",
+      "deadline": "2026-07-24T23:59:59-12:00",
+      "expectedWindow": null,
+      "sortDate": "2026-07-24",
+      "source": "https://2026.ieee-humanoids.org/call-for-papers/"
+    },
+    {
       "acronym": "ICLR",
       "edition": "2027",
       "name": "International Conference on Learning Representations",
@@ -91,11 +115,35 @@
       "name": "AAAI Conference on Artificial Intelligence",
       "area": "AI",
       "ccf": "A",
-      "deadlineType": "Main track",
-      "deadline": null,
-      "expectedWindow": "2026 H2",
-      "sortDate": "2026-12-15",
-      "source": "https://aaai.org/conference/aaai/"
+      "deadlineType": "Main track full paper",
+      "deadline": "2026-07-28T23:59:00-12:00",
+      "expectedWindow": null,
+      "sortDate": "2026-07-28",
+      "source": "https://aaai.org/conference/aaai/aaai-27/"
+    },
+    {
+      "acronym": "WACV",
+      "edition": "2027",
+      "name": "IEEE/CVF Winter Conference on Applications of Computer Vision",
+      "area": "Vision",
+      "ccf": null,
+      "deadlineType": "Round 2 full paper",
+      "deadline": "2026-08-28T23:59:59-12:00",
+      "expectedWindow": null,
+      "sortDate": "2026-08-28",
+      "source": "https://wacv.thecvf.com/Conferences/2027/Dates"
+    },
+    {
+      "acronym": "3DV",
+      "edition": "2027",
+      "name": "International Conference on 3D Vision",
+      "area": "Vision",
+      "ccf": null,
+      "deadlineType": "Full paper",
+      "deadline": "2026-08-28T11:00:00-07:00",
+      "expectedWindow": null,
+      "sortDate": "2026-08-28",
+      "source": "https://3dvconf.github.io/2027/dates/"
     },
     {
       "acronym": "ICML",
