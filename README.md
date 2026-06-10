@@ -2,7 +2,7 @@
 
 机器人、人工智能、机器学习和计算机视觉会议投稿截止日期：
 
-`https://junb0dong.github.io/robotics-deadlines/`
+`https://junb0dong.github.io/robotics_deadlines/`
 
 ## 更新会议
 
