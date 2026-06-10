@@ -209,7 +209,7 @@ function updateSummary() {
 
 async function loadConferences() {
   try {
-    const response = await fetch("./data/conferences.json");
+    const response = await fetch("./data/conferences.json", { cache: "no-store" });
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     const payload = await response.json();
     state.conferences = payload.conferences;
