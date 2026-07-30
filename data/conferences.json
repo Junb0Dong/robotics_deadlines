@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-10",
+  "lastUpdated": "2026-07-30",
   "conferences": [
     {
       "acronym": "ACCV",
@@ -21,10 +21,10 @@
       "area": "Robotics",
       "ccf": null,
       "deadlineType": "Full paper",
-      "deadline": "2026-07-24T23:59:59-12:00",
+      "deadline": "2026-07-27T23:59:00-07:00",
       "status": "confirmed",
       "expectedWindow": null,
-      "sortDate": "2026-07-24",
+      "sortDate": "2026-07-27",
       "source": "https://2026.ieee-humanoids.org/call-for-papers/"
     },
     {
@@ -34,11 +34,11 @@
       "area": "ML",
       "ccf": null,
       "deadlineType": "Full paper",
-      "deadline": "2026-09-24T23:59:59-12:00",
-      "status": "estimated",
+      "deadline": "2026-09-25T23:59:59-12:00",
+      "status": "confirmed",
       "expectedWindow": null,
-      "sortDate": "2026-09-24",
-      "source": "https://iclr.cc/Conferences/2026/Dates"
+      "sortDate": "2026-09-25",
+      "source": "https://iclr.cc/Conferences/2027/Dates"
     },
     {
       "acronym": "ICRA",
@@ -47,11 +47,11 @@
       "area": "Robotics",
       "ccf": "B",
       "deadlineType": "Full paper",
-      "deadline": "2026-09-15T23:59:59-07:00",
-      "status": "estimated",
+      "deadline": "2026-09-15T23:59:00-07:00",
+      "status": "confirmed",
       "expectedWindow": null,
       "sortDate": "2026-09-15",
-      "source": "https://nunoduarte.github.io/deadlines/"
+      "source": "https://www.ieee-ras.org/conferences-workshops/fully-sponsored/icra/"
     },
     {
       "acronym": "HRI",
@@ -60,11 +60,11 @@
       "area": "Robotics",
       "ccf": null,
       "deadlineType": "Full paper",
-      "deadline": "2026-09-30T23:59:59-12:00",
-      "status": "estimated",
+      "deadline": "2026-09-18T23:59:00-12:00",
+      "status": "confirmed",
       "expectedWindow": null,
-      "sortDate": "2026-09-30",
-      "source": "https://humanrobotinteraction.org/2026/full-papers/"
+      "sortDate": "2026-09-18",
+      "source": "https://humanrobotinteraction.org/2027/full-papers/"
     },
     {
       "acronym": "AISTATS",
@@ -90,7 +90,7 @@
       "status": "estimated",
       "expectedWindow": null,
       "sortDate": "2026-11-13",
-      "source": "https://nunoduarte.github.io/deadlines/"
+      "source": "https://cvpr.thecvf.com/Conferences/2026/Dates"
     },
     {
       "acronym": "ICAPS",
@@ -129,7 +129,7 @@
       "status": "confirmed",
       "expectedWindow": null,
       "sortDate": "2026-07-28",
-      "source": "https://aaai.org/conference/aaai/aaai-27/"
+      "source": "https://aaai.org/conference/aaai/aaai-27/main-technical-track-call/"
     },
     {
       "acronym": "WACV",
@@ -181,7 +181,7 @@
       "status": "estimated",
       "expectedWindow": null,
       "sortDate": "2027-01-29",
-      "source": "https://roboticsconference.org/2026/"
+      "source": "https://roboticsconference.org/information/cfp/"
     },
     {
       "acronym": "IJCAI",
@@ -194,7 +194,7 @@
       "status": "estimated",
       "expectedWindow": null,
       "sortDate": "2027-01-19",
-      "source": "https://www.ijcai.org/"
+      "source": "https://2026.ijcai.org/important-dates/"
     },
     {
       "acronym": "UAI",
@@ -207,7 +207,7 @@
       "status": "estimated",
       "expectedWindow": null,
       "sortDate": "2027-02-25",
-      "source": "https://www.auai.org/uai2026/"
+      "source": "https://www.auai.org/uai2026/important_dates"
     },
     {
       "acronym": "ICCV",
@@ -233,7 +233,7 @@
       "status": "estimated",
       "expectedWindow": null,
       "sortDate": "2027-03-02",
-      "source": "https://www.iros-pittsburgh.org/"
+      "source": "https://2026.ieee-iros.org/contribute/call-for-papers/"
     },
     {
       "acronym": "CoRL",
@@ -246,7 +246,7 @@
       "status": "estimated",
       "expectedWindow": null,
       "sortDate": "2027-05-28",
-      "source": "https://www.corl.org/"
+      "source": "https://www.corl.org/contributions/instruction-for-authors"
     },
     {
       "acronym": "NeurIPS",
