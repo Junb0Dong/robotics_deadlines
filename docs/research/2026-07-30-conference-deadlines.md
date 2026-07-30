@@ -3,7 +3,7 @@
 ## Scope and method
 
 - Verification date: **2026-07-30 UTC** (checked with the system `date` command).
-- Scope: all 20 entries currently in `data/conferences.json`.
+- Scope: all 20 entries present before the active-calendar cleanup. Three records whose deadlines had passed by the verification time (ACCV 2026, Humanoids 2026, and AAAI-27) were subsequently removed from the active table; their official verification remains documented below for auditability.
 - Source policy: official conference/RAS/CVF/organizer pages only wherever available. A missing 2027 page or a 404 is **not** treated as an official 2027 date. When 2027 submission dates are unpublished, the table identifies the closest official prior-edition evidence and keeps the value `estimated`.
 - `AoE` means UTC−12. Where an official page states only `11:59 pm`, the suggested ISO value uses `23:59:00`; projects that intentionally model the last second of the minute may instead use `23:59:59`, but should apply that convention consistently.
 

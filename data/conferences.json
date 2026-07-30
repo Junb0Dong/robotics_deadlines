@@ -2,32 +2,6 @@
   "lastUpdated": "2026-07-30",
   "conferences": [
     {
-      "acronym": "ACCV",
-      "edition": "2026",
-      "name": "Asian Conference on Computer Vision",
-      "area": "Vision",
-      "ccf": "C",
-      "deadlineType": "Full paper",
-      "deadline": "2026-07-05T23:59:00Z",
-      "status": "confirmed",
-      "expectedWindow": null,
-      "sortDate": "2026-07-05",
-      "source": "https://accv2026.org/"
-    },
-    {
-      "acronym": "Humanoids",
-      "edition": "2026",
-      "name": "IEEE-RAS International Conference on Humanoid Robots",
-      "area": "Robotics",
-      "ccf": null,
-      "deadlineType": "Full paper",
-      "deadline": "2026-07-27T23:59:00-07:00",
-      "status": "confirmed",
-      "expectedWindow": null,
-      "sortDate": "2026-07-27",
-      "source": "https://2026.ieee-humanoids.org/call-for-papers/"
-    },
-    {
       "acronym": "ICLR",
       "edition": "2027",
       "name": "International Conference on Learning Representations",
@@ -117,19 +91,6 @@
       "expectedWindow": null,
       "sortDate": "2026-10-08",
       "source": "https://aamas2026.org/"
-    },
-    {
-      "acronym": "AAAI",
-      "edition": "2027",
-      "name": "AAAI Conference on Artificial Intelligence",
-      "area": "AI",
-      "ccf": "A",
-      "deadlineType": "Main track full paper",
-      "deadline": "2026-07-28T23:59:00-12:00",
-      "status": "confirmed",
-      "expectedWindow": null,
-      "sortDate": "2026-07-28",
-      "source": "https://aaai.org/conference/aaai/aaai-27/main-technical-track-call/"
     },
     {
       "acronym": "WACV",
